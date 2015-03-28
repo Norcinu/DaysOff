@@ -10,6 +10,8 @@
 
 @interface ViewController : NSViewController
 
+@property (strong) IBOutlet NSTextField *lblDaysOff;
+@property (strong) IBOutlet NSTextField *lblDaysTaken;
 
 @end
 

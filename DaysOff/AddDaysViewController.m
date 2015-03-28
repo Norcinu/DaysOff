@@ -20,18 +20,16 @@
     dates = [NSMutableArray array];
     
     NSDate *today = [NSDate date];
-    [self.datePicker setDateValue:today];
+    [[self datePicker] setDateValue:today];
 
 }
 
 - (IBAction)addDate:(id)sender {
-    [dates addObject:self.datePicker.dateValue];
+    [dates addObject:[[self datePicker] dateValue]];
 }
 
 - (IBAction)deleteLastDate:(id)sender {
-    NSUInteger count = [dates count];
     [dates removeLastObject];
-    count = [dates count];
 }
 
 @end
