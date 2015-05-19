@@ -22,4 +22,15 @@
     // Insert code here to tear down your application
 }
 
+-(NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    return nil;
+}
+
+
+-(NSInteger)numberOfRowsInTable:(NStableView *)table
+{
+    return [table count];
+}
+
 @end

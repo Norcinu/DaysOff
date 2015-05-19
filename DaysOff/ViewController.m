@@ -23,6 +23,8 @@ WorkYear *workYear;
     [workYear setYearlyAllowance:21];
     _lblDaysOff.stringValue = [NSString stringWithFormat:@"%d", [workYear getYearlyAllowance]];
     _lblDaysTaken.stringValue = [NSString stringWithFormat:@"%d", [workYear getCurrentCount]];
+    
+    [self.tableViewController addObject:@"brup?"];
 }
 
 - (void)prepareForSegue:(NSStoryboardSegue *)segue sender:(id)sender {
@@ -37,5 +39,7 @@ WorkYear *workYear;
 
     // Update the view, if already loaded.
 }
+
+-(NSInteger)numberOf
 
 @end

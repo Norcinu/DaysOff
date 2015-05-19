@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69B823444839AF2455D485A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3860177A4845D6613E802E3C /* libPods.a */; };
+		B08C4A131AC77C6A0014397E /* DatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B08C4A121AC77C6A0014397E /* DatabaseConnection.m */; };
 		B09C7C0B1A7316A1002291C4 /* WorkYear.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C7C0A1A7316A1002291C4 /* WorkYear.m */; };
 		B0C1FECD1A61EAE0001FC3C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1FECC1A61EAE0001FC3C2 /* AppDelegate.m */; };
 		B0C1FECF1A61EAE0001FC3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1FECE1A61EAE0001FC3C2 /* main.m */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		3860177A4845D6613E802E3C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F367F5E194A3A4C8678EE53 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B08C4A111AC77C6A0014397E /* DatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConnection.h; sourceTree = "<group>"; };
+		B08C4A121AC77C6A0014397E /* DatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConnection.m; sourceTree = "<group>"; };
 		B09C7C091A7316A1002291C4 /* WorkYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkYear.h; sourceTree = "<group>"; };
 		B09C7C0A1A7316A1002291C4 /* WorkYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkYear.m; sourceTree = "<group>"; };
 		B0C1FEC61A61EAE0001FC3C2 /* DaysOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +114,8 @@
 				B0C1FEC91A61EAE0001FC3C2 /* Supporting Files */,
 				B09C7C091A7316A1002291C4 /* WorkYear.h */,
 				B09C7C0A1A7316A1002291C4 /* WorkYear.m */,
+				B08C4A111AC77C6A0014397E /* DatabaseConnection.h */,
+				B08C4A121AC77C6A0014397E /* DatabaseConnection.m */,
 			);
 			path = DaysOff;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08C4A131AC77C6A0014397E /* DatabaseConnection.m in Sources */,
 				B0C1FED21A61EAE0001FC3C2 /* ViewController.m in Sources */,
 				B0C1FECF1A61EAE0001FC3C2 /* main.m in Sources */,
 				B09C7C0B1A7316A1002291C4 /* WorkYear.m in Sources */,

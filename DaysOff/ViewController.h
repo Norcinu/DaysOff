@@ -12,6 +12,7 @@
 
 @property (strong) IBOutlet NSTextField *lblDaysOff;
 @property (strong) IBOutlet NSTextField *lblDaysTaken;
+@property (strong) IBOutlet NSArrayController *tableViewController;
 
 @end
 
